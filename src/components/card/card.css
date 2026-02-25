@@ -1,0 +1,70 @@
+
+
+.card {
+  background-color: #ffffff; /* Fundo totalmente branco */
+  border-radius: 16px; /* Cantos arredondados mais suaves */
+  padding: 30px 20px; /* Mais "respiro" interno */
+  text-align: center;
+  
+  /* A mágica do design moderno: uma sombra quase imperceptível */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04); 
+  border: 1px solid rgba(0,0,0, 0.02); /* Borda clarinha para definir o limite */
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efeito sutil ao passar o mouse */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08); /* A sombra aumenta */
+}
+
+h2{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748; /* Cinza escuro (melhor que preto puro) */
+  margin: 0 0 12px 0;
+
+}
+
+p{
+  font-size: 1rem;
+  color: #718096; /* Cinza médio para não roubar a atenção do nome */
+  margin: 0;
+}
+
+.btn-trash{
+  background-color: transparent;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+
+
+.card-title {
+  font-family: 'Playfair Display', serif; /* Fonte elegante */
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #2d2d2d;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.card-price {
+  font-weight: bold;
+  color: #e67e22; /* Um tom de laranja/terroso para apetite */
+  font-size: 1.1rem;
+}
